@@ -5,7 +5,7 @@ try:
 except:
     pass
 
-
+os.system('touch index.html')
 f = open (server.Start()[1]+'/index.html', 'w')
 f.write(server.Start()[0])
 a = ''
